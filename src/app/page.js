@@ -1,7 +1,10 @@
-import Image from 'next/image'
+import { ContainerGrid } from "@/components/container";
 
 export default function Home() {
   return (
-    <h1>Projeto NFTboost</h1>
+      <ContainerGrid className="flex gap-3">
+          <p>Esse texto é um teste para meu componente children.</p>
+          <p>Esse texto é um teste para meu componente children.</p>
+      </ContainerGrid>
   )
 }
